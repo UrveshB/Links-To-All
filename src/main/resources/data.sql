@@ -8,7 +8,7 @@ INSERT INTO categories (id, name) VALUES (6, 'Music');
 
 -- Links
 INSERT INTO links (title, description, url, category_id) VALUES
-('Internet Archive', 'Millions of free books, films, songs, and more are available at this nonprofit library..', 'https://archive.org/', 1)
+('Internet Archive', 'Millions of free books, films, songs, and more are available at this nonprofit library..', 'https://archive.org/', 1),
 ('Reddit', 'Community-based forums on countless topics.', 'https://www.reddit.com', 1),
 ('Quora', 'Q&A platform for knowledge sharing.', 'https://www.quora.com', 1),
 ('Stack Overflow', 'Developer-focused Q&A site.', 'https://stackoverflow.com', 1),
