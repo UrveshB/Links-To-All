@@ -1,15 +1,12 @@
 package com.urvesh.Links_To_All.controller;
 
 import com.urvesh.Links_To_All.dto.LinkDto;
-import com.urvesh.Links_To_All.model.Category;
-import com.urvesh.Links_To_All.model.Link;
 import com.urvesh.Links_To_All.service.LinkService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor
